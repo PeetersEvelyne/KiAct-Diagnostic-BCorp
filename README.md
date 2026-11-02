@@ -1,6 +1,6 @@
 # KiAct · Diagnostic B Corp V2
 
-Outil interne de cadrage B Corp de KiAct Consulting, version 2.1.0 du 29 octobre 2026.
+Outil interne de cadrage B Corp de KiAct Consulting, version 2.1.1 du 2 novembre 2026.
 
 Adresse en ligne : https://peetersevelyne.github.io/KiAct-Diagnostic-BCorp/
 
@@ -14,7 +14,7 @@ index.html                  Point d'entrée de la page
 README.md                   Présente notice
 CHANGELOG.md                Journal des modifications
 assets/
-  index-DaSx-hwI.js         Code compilé
+  index-CwQkdI3f.js         Code compilé
   index-cXlCuMns.css        Styles
   favicon-27NaBrDu.svg      Icône d'onglet
 src/
