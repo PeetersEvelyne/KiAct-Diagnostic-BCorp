@@ -1,5 +1,10 @@
 # Journal des modifications · KiAct Diagnostic B Corp V2
 
+## Version 2.1.1 du 2 novembre 2026
+
+- Risk Tool, mention de la confirmation de B Lab Suisse du 2 novembre 2026. Une réponse « Oui » active la sous-exigence avec son année de départ habituelle (0, 3 ou 5), sans l'avancer. La règle déjà appliquée par l'outil est inchangée.
+- Classification des profils d'usage de l'IA (FR3.1.c) confirmée par B Lab Suisse.
+
 ## Version 2.1.0 du 29 octobre 2026
 
 Référentiel : Standards B Lab V2.2 du 20 février 2026. Aucune version postérieure publiée au 29 octobre 2026 (journal des modifications du Knowledge Hub B Lab, vérifié ce jour).

@@ -3485,7 +3485,7 @@ const ResultsStep = ({ ctx, setCtx, answers, onRestart, onBack, consultantMode, 
       sections.push(html + `</section>`);
     }
     if (ctx.req && ctx.req.anticipate.length > 0) {
-      let html = `<section class="chantier-block to-build"><h3>À anticiper pour les Années 3 et 5 (${ctx.req.anticipate.length})</h3><p style="font-size:11px;margin:0">Sous-exigences déclenchées par le Risk Tool, non comptées dans le diagnostic de l'Année 0.</p><ul>`;
+      let html = `<section class="chantier-block to-build"><h3>À anticiper pour les Années 3 et 5 (${ctx.req.anticipate.length})</h3><p style="font-size:11px;margin:0">Sous-exigences déclenchées par le Risk Tool avec leur année de départ habituelle (confirmation de B Lab Suisse, 2 novembre 2026), non comptées dans le diagnostic de l'Année 0.</p><ul>`;
       ctx.req.anticipate.forEach((a) => {
         html += `<li><strong>[${escape(codeWithFr(a.code))} · Année ${a.year}]</strong> ${escape(BLAB_SUBREQS[a.code]?.t || "")}</li>`;
       });
@@ -4014,7 +4014,7 @@ ${sections.join("\n")}
             </span>
           </div>
           <p style={{ fontSize: 13, color: "#4A5552", marginBottom: 16, lineHeight: 1.5 }}>
-            Sous-exigences déclenchées par le Risk Tool. Elles ne sont pas dues en Année 0 et ne sont pas comptées dans le diagnostic.
+            Sous-exigences déclenchées par le Risk Tool. Une réponse « Oui » active chaque sous-exigence avec son année de départ habituelle, sans l'avancer (confirmation de B Lab Suisse, 2 novembre 2026). Elles ne sont donc pas dues en Année 0 et ne sont pas comptées dans le diagnostic.
           </p>
           <div style={{ display: "grid", gap: 8 }}>
             {ctx.req.anticipate.map((a) => (
